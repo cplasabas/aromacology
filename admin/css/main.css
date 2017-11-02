@@ -1,0 +1,197 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+
+
+.margin-container{
+    margin: 0 15% 0 15%;
+}
+
+.login-form{
+    margin: 0 auto;
+
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-control, .input-group-addon{
+    outline: 0;
+    border-width: 2px;
+    border-color: #848484;
+    border-radius: 0;
+    background: none;
+    color:#e55227;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus, .input-group-addon:focus {
+    border-color: #e55227 !important;
+}
+
+.medium-form{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.logo-row{
+    margin-bottom: 5%;
+}
+
+.login-button{
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    padding: 12px 20px;
+    background-color:  #848484;
+    color:   white!important;
+    cursor: pointer;    
+    border-radius: 0;
+    width: 100px;
+    height: auto;
+}
+
+
+
+.login-button{
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    padding: 12px 20px;
+    background-color:  #848484;
+    color:   white!important;
+    cursor: pointer;    
+    border-radius: 0;
+
+}
+
+.login-button:hover, .login-button:focus {
+    background-color:  #e55227;
+    color: white !important;
+}
+
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.page-title{
+    margin: 5% 0 10% 0;
+    text-transform: uppercase !important;
+}
+
+.pagination {
+    display: inline-block;
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #e55227;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.category_form{
+    text-transform: capitalize;
+}
+
+.add-product-button{
+    margin-bottom: 5%;
+}
+
+.add-product-button > a:hover {
+  
+    color: #e55227 !important;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.btn-default:hover{
+    background: #e55227;
+    color: white;
+}
+
+
+.product-name-row{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.product-name{
+    color: #e55227;
+    font-family: "century gothic";
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.store-product-price-row{
+    padding-bottom: 50px;
+}
+
+
+.product-description-row{
+    margin-bottom: 5%;
+}
+
+.product-description{
+    color: #717171;
+    font-family: "century gothic";
+    font-size: 16px;
+}
+
+.product-price-row{
+    margin-bottom: 5%;
+
+}
+.product-price{
+    color: #e55227;
+    font-family: "century gothic";
+    font-size: 35px;
+}
+
+
+.slider-text{
+
+    font-family: "century gothic" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+}

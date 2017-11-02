@@ -1,0 +1,11 @@
+{
+    "name": "vendor/aromacology",
+    "description": "Description of project aromacology.",
+    "authors": [
+        {
+            "name": "technoken",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}
